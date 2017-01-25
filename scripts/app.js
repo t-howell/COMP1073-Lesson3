@@ -2,10 +2,12 @@
 
 console.log("App Started");
 
+//declare/initialize firstHeading variable
+//firstHeading creates a link to the h1 element on the page 
 var firstHeading = document.getElementById("firstHeading");
 
-
-
+//can use firstHeading js variable as though it is the html h1 element
+window.alert(firstHeading.textContent);
 
 
 
