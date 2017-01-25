@@ -30,6 +30,12 @@ var myContent = "It was a sunny day in Florida. Blah blah blah.";
 firstParagraph.textContent = myContent;
 
 
+var secondParagraph = document.getElementById("secondParagraph");
+
+var myHTMLcontent = "<h2>Second Heading</h2>"
+				+ "<p> This is the second paragraph</p>";
+secondParagraph.innerHTML = myHTMLcontent;
+
 
 //create a reference to the button on the page (index.html)
 var clickMeButton = document.getElementById("clickMeButton");
@@ -42,8 +48,10 @@ function clickMe(){
 	console.log("Clicked!");
 }
 
-/* var p = document.createElement("p");
+var targetArea = document.getElementById("targetArea");
 
-var snippet = p.createTextNode("This is a paragraph.");
+var thirdParagraph = document.createElement("p");
 
-targetArea.appendChild(snippet); */
+var snippet = p.createTextNode("This is a third paragraph.");
+
+targetArea.appendChild(snippet);
