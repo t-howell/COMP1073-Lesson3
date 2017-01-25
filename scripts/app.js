@@ -2,6 +2,13 @@
 
 console.log("App Started");
 
+var firstHeading = document.getElementById("firstHeading");
+
+
+
+
+
+
 //create a reference to the button on the page (index.html)
 var clickMeButton = document.getElementById("clickMeButton");
 
@@ -15,6 +22,6 @@ function clickMe(){
 
 /* var p = document.createElement("p");
 
-var snippet = p.createTextNode("This is a paragraph."); */
+var snippet = p.createTextNode("This is a paragraph.");
 
-targetArea.appendChild(snippet);
+targetArea.appendChild(snippet); */
